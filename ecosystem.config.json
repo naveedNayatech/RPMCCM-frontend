@@ -1,0 +1,15 @@
+{
+    "apps": [
+      {
+        "name": "Front end",
+        "script": "yarn start",
+        "instances": 1,
+        "autorestart": true,
+        "watch": false,
+        "time": true,
+        "env": {
+          "NODE_ENV": "production"
+        }
+      }
+    ]
+  }
