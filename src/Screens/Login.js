@@ -85,8 +85,15 @@ const Login = ({ history }) => {
 								</div>
 
 								<div className="col-md-6">
-								<Image src={TDW_logo} style={{height:"80px"}} alt="logo"/>		
-								
+								<div className='row-display'>	
+									<Image src={TDW_logo} style={{height:"80px"}} alt="logo"/>		
+
+									<div className="text-center">
+										<Link to="/" style={{textDecoration: 'none', 
+										color: "#02C39A", fontSize: '18px', marginTop: '10px'}}><small>Home</small></Link>
+									</div>
+								</div>
+
 								<div className="col-md-12" >
 									<br />
 									<div>
@@ -121,14 +128,14 @@ const Login = ({ history }) => {
 													/>
 	
 													<Selectbox 
-														label="Select Role"
+														label="Select Your Role"
 														name="role"
 														placeholder="Select Role"
 													/>
 													
-													<Link to="/auth/forgot">
+													{/* <Link to="/auth/forgot">
 														<span className="forgot-password-link">Forgot Password ?</span>
-													</Link>
+													</Link> */}
 													
 													<br/>
 													
@@ -138,12 +145,7 @@ const Login = ({ history }) => {
 															'Login'}
 														</button>
 												</Form>
-	
-												<br/>
-													{/* <div className="text-center">
-														<Link to="/" style={{textDecoration: 'none', 
-														color: "#02C39A", fontSize: '18px'}}><small>TheDoctorWeb.com</small></Link>
-													</div> */}
+													
 											</div>
 										)}
 									</Formik>											

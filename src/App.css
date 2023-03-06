@@ -1,5 +1,5 @@
   *{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Merriweather', serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -1153,14 +1153,29 @@
     padding: 0 5px
   }
 
-  .form-control {
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  
+  /* .form-control {
     font-size: 13px;
     background-color: #fcfcfc;
   }
 
   .form-control:focus {
     outline: none;
-  }
+  } */
 
 
   .home-content .overview-boxes .box{
@@ -1301,7 +1316,7 @@
   # Admin Login Form
   --------------------------------------------------------------*/
 
-  /* .login-section {
+  .login-section {
     background: url("./assets/Images/loginBG.png") top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1309,16 +1324,15 @@
     height:100vh;
     overflow-y: hidden;
     overflow-x: hidden;
-  } */
+  }
 
   .content {
-    margin: 5%;
-    background: #F0F3BD;
+    margin-top: 10%;
     border-radius: 10px;
     padding: 0.5rem;
+    background-color: #FAFAFA;
     box-shadow: 0 0 5px 5px rgba(0,0,0, .10);
     width: 100%;
-    float: right;
     opacity: 0.9;
   }
 
