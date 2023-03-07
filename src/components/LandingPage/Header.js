@@ -24,7 +24,7 @@ const Header = () => {
   
 
   {/* Header  */}
-  <MetaData title="Home"/>
+  <MetaData title="WestOrangeRemoteMonitoring - Home"/>
 
   <header id="header" className="fixed-top">
     <div className="container d-flex align-items-center">

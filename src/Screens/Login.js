@@ -73,7 +73,7 @@ const Login = ({ history }) => {
 	
     return (
     	<Fragment>
-		<MetaData title="Login" />
+		<MetaData title="WestOrangeRemoteMonitoring - Login" />
 		 <Fragment>
 				<div className="login-section">
 					<div className="container">
