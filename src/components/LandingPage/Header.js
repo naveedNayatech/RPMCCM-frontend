@@ -7,7 +7,7 @@ import MetaData from '../../layouts/MetaData';
 const Header = () => {
 
   const sendEmail = () => {
-    window.open(`mailto:support@thedoctorsweb.com`)
+    window.open(`mailto:support@worpm.com`)
 }
 
   return (
@@ -24,7 +24,7 @@ const Header = () => {
   
 
   {/* Header  */}
-  <MetaData title="WestOrangeRemoteMonitoring - Home"/>
+  <MetaData title="WO RPM - Home"/>
 
   <header id="header" className="fixed-top">
     <div className="container d-flex align-items-center">

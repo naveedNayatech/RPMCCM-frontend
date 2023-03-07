@@ -43,7 +43,7 @@ const ContactUs = () => {
               <div className="email">
                 <img src={GmailImg} alt="gmail-icon"/>
                 <h4>Email:</h4>
-                <p>support@thedoctorsweb.com</p>
+                <p>support@worpm.com</p>
               </div>
 
               <div className="phone">
