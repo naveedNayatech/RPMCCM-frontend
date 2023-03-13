@@ -77,7 +77,7 @@ const AssignDrToHr = (props) => {
 
             <div className="col-md-0 shadow-lg p-3 mb-5 mr-4 ml-4 bg-white rounded">
                 
-                <h5 style={{color: '#02C39A'}} className="mt-2">
+                <h5 style={{color: '#8FBB2C'}} className="mt-2">
                     <i className='bx bx-plus-medical'></i> <strong>&nbsp;Assign Doctor </strong>
                 </h5>
                 <hr />
@@ -86,7 +86,7 @@ const AssignDrToHr = (props) => {
                 
                 <div className="row">
                     <div className="col-md-4">
-                        <h5 style={{color: '#02C39A'}} className="mt-4">
+                        <h5 style={{color: '#8FBB2C'}} className="mt-4">
                             <i className='bx bx-search-alt-2' ></i> <strong>&nbsp;Select Doctor </strong>
                         </h5>
                             <Select
@@ -99,7 +99,7 @@ const AssignDrToHr = (props) => {
                         
 
                         {doctorId && doctor && <Fragment>
-                            <h5 style={{color: '#02C39A'}} className="mt-4">
+                            <h5 style={{color: '#8FBB2C'}} className="mt-4">
                                  <strong>&nbsp;Doctor Details </strong>
                             </h5>
                             <br />

@@ -10,7 +10,7 @@ const data = [
   {name: 'Technical scripter', patients: femalePts},
 ];
 
-const COLORS = ['#02C39A', '#E0115F'];
+const COLORS = ['#8FBB2C', '#E0115F'];
 
 const RADIAN = Math.PI / 180;
   
@@ -31,7 +31,7 @@ const RADIAN = Math.PI / 180;
                 <Pie data={data} 
                   dataKey="patients" 
                   outerRadius={100} 
-                  fill="#02C39A"
+                  fill="#8FBB2C"
                   labelLine={false}
                   label={renderCustomizedLabel}
                 >

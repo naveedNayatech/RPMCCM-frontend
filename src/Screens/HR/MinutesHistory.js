@@ -56,7 +56,7 @@ const MinutesHistory = () => {
                 <div className="home-content">
                     <div className="container">
                         <div className="row-display">        
-                        <h5 style={{color: '#02C39A'}}>
+                        <h5 style={{color: '#8FBB2C'}}>
                             <i className='bx bx-filter'></i> <strong>&nbsp;Minutes History </strong>
                         </h5>
 
@@ -76,7 +76,7 @@ const MinutesHistory = () => {
                         <hr />
 
                         <div className="row-display">
-                                <h5 style={{color: '#02C39A'}}>
+                                <h5 style={{color: '#8FBB2C'}}>
                                     <i className='bx bxs-watch'></i> 
                                     <strong>&nbsp;{reportCategory} Minutes Added </strong>
                                     <p><small>For the month of {moment().format('MMMM')} 2023</small></p>
@@ -225,7 +225,7 @@ const MinutesHistory = () => {
 
                                 ))}
                             </Fragment> : <div className="text-center" style={{marginTop: '70px'}}>
-                                <i className="fas fa-search-minus" style={{fontSize: '60px', color: '#02C39A'}}></i>
+                                <i className="fas fa-search-minus" style={{fontSize: '60px', color: '#8FBB2C'}}></i>
                                 <p className="mt-2">No Minutes added in <span style={{ fontWeight: 'bold' }}>
                                     {moment().format('MMMM')}</span> 
                                     &nbsp; in  <span style={{fontWeight: 'bold'}}>{reportCategory}</span> category.</p>

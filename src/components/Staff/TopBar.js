@@ -32,7 +32,7 @@ const TopBar = () => {
                 <div className="row-display" style={{padding: '10px 30px'}}>
                 <div className="sidebar-button">
                 <i className="bx bx-menu sidebarBtn"></i>
-                    <span className="title">Welcome Back, <p style={{color: '#02C39A', marginTop: '-10px'}}>
+                    <span className="title">Welcome Back, <p style={{color: '#8FBB2C', marginTop: '-10px'}}>
                             <small>{isAuthenticated === true && user && <>
                                 {user?.firstname} {user?.lastname} </> }
                             </small> 
@@ -43,7 +43,7 @@ const TopBar = () => {
                 <h5 className="title mt-4"><b>Doctor's Dashboard</b></h5>                
                 <Dropdown>
                     <Dropdown.Toggle variant="none" id="dropdown-basic" className="profile-details">
-                    <i className="fas fa-user-md" style={{fontSize: '50px', color: '#02C39A'}}></i>
+                    <i className="fas fa-user-md" style={{fontSize: '50px', color: '#8FBB2C'}}></i>
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu className="admin-topbar-dropdown">

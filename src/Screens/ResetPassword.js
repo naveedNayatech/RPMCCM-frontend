@@ -67,7 +67,7 @@ const ResetPassword = (props) => {
 							<div className="col-md-12"  >
 							<hr/>
 							<div>
-								<h3 style={{color: '#02C39A'}}>Reset Password.</h3>
+								<h3 style={{color: '#8FBB2C'}}>Reset Password.</h3>
 								<h5 style={{color: '#999'}}>Please enter your new password.</h5>
 							</div>
 							

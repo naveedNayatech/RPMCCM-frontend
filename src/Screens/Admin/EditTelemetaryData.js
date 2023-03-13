@@ -55,7 +55,7 @@ const EditTelemetaryData = (props) => {
                 <div className="shadow-lg p-3 mb-5 mr-4 ml-4 bg-white rounded">        
                         <div className="home-content">
                             <div className="container">
-                                <h5 className="pt-2 mt-2">Edit <span style={{ color: '#02C39A'}}> Telemetary Data </span></h5>
+                                <h5 className="pt-2 mt-2">Edit <span style={{ color: '#8FBB2C'}}> Telemetary Data </span></h5>
                             <hr/>          
 
                                 <div className="row">

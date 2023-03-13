@@ -66,7 +66,7 @@ const NurseCCMPatients = () => {
                 <div className="home-content">
                     <div className="container">
                         <div className="row-display">
-                        <h5 style={{color: '#02C39A'}}>
+                        <h5 style={{color: '#8FBB2C'}}>
                         <i className="fas fa-hospital-user" style={{color: '#3CAEA3', fontSize: '24px'}}></i>
                          <strong>&nbsp;&nbsp;CCM Patients </strong>
                         </h5>

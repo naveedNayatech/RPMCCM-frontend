@@ -65,7 +65,7 @@ const HRFinancialReportCCM = () => {
                 <div className="home-content">
                     <div className="container">
                     <div className="row-display">
-                        <h5 style={{color: '#02C39A'}}>
+                        <h5 style={{color: '#8FBB2C'}}>
                         <i className="fas fa-stopwatch-20" style={{color: 'crimson', fontSize: '24px'}}></i> 
                             <strong>&nbsp;&nbsp;Financial Report for CCM </strong>
                         </h5>

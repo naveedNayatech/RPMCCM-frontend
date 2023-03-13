@@ -87,7 +87,7 @@ const HRPatientsList = () => {
                         <div className="home-content">
                             <div className="container">
                                 <div className="row-display">
-                                <h5 style={{color: '#02C39A'}}>
+                                <h5 style={{color: '#8FBB2C'}}>
                                 <i className="fas fa-user-injured" style={{color: '#ED553B', fontSize: '24px'}}></i>
                                  <strong>&nbsp;&nbsp;My Patients </strong>
                                 </h5>

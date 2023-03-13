@@ -179,7 +179,7 @@
                     {/* Modal to add interactive minutes */}
                     <Modal show={confirmationModal} onHide={handleClose}>
                         <Modal.Body>
-                        <h5 style={{color: '#02C39A'}}>
+                        <h5 style={{color: '#8FBB2C'}}>
                             <i class='bx bx-bell'></i> <strong>&nbsp;Alert </strong>
                         </h5>
                         <br />

@@ -169,7 +169,7 @@ const PatientsList = () => {
                         
                         <div className="row-display">
                             <div className="col-md-7">
-                                <h5 style={{color: '#02C39A'}}>
+                                <h5 style={{color: '#8FBB2C'}}>
                                     <i className="bx bx-user"></i> <strong>&nbsp;Active RPM Patients </strong>
                                 </h5>
                             </div>

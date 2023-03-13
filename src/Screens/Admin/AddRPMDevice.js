@@ -70,7 +70,7 @@ const AddRPMDevice = (props) => {
                     <div className="home-content">
                         <div className="row-display">
                             {/* <h5 className="pt-2 mt-2">Add <span style={{color: '#F95800'}}>Device </span></h5> */}
-                            <h5 style={{color: '#02C39A'}}>
+                            <h5 style={{color: '#8FBB2C'}}>
                                 <i className='bx bx-devices'></i> <strong>&nbsp;Add New Device </strong>
                             </h5>
 

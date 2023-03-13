@@ -48,7 +48,7 @@ const StaffCCMPatients = () => {
                         <div>
                             <div className="row-display">
                                 <h5 className="title">CCM Patients 
-                                    <p style={{color: '#02C39A'}}>
+                                    <p style={{color: '#8FBB2C'}}>
                                         <small> Total CCM patients are: {CcmPatients && CcmPatients < 10 ? '0'+CcmPatients : CcmPatients} </small> 
                                     </p>
                                 </h5>

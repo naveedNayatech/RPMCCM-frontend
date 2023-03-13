@@ -66,7 +66,7 @@ const HRList = () => {
                     <div className="home-content">
 
                         <div className="row-display">
-                            <h5 style={{color: '#02C39A'}}>
+                            <h5 style={{color: '#8FBB2C'}}>
                                 <i className='bx bx-plus-medical'></i> <strong>&nbsp;List of Nurses </strong>
                             </h5>
 

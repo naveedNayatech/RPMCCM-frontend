@@ -97,7 +97,7 @@ const RPMDevices = (props) => {
                     
                     <div className="row-display">
                         
-                        <h5 style={{color: '#02C39A'}}>
+                        <h5 style={{color: '#8FBB2C'}}>
                             <i className='bx bxs-devices'></i> <strong>&nbsp;Inventory Management </strong>
                         </h5>
                             

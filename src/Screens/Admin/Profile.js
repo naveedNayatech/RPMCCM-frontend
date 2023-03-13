@@ -49,7 +49,7 @@ const Profile = () => {
                 
                 <div className="jumbotron jumbotron-blur-img"></div> 
                   <small style={{
-                    backgroundColor: '#02C39A',
+                    backgroundColor: '#8FBB2C',
                     padding: '8px',
                     color: '#FFF'
                   }}>Note: If you update admin details, you need to login again.</small>

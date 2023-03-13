@@ -152,7 +152,7 @@ const StaffDashboard = (props) => {
                             <div>
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <h5 className="title pt-2 mt-2">RPM Patients <p style={{color: '#02C39A'}}> 
+                                        <h5 className="title pt-2 mt-2">RPM Patients <p style={{color: '#8FBB2C'}}> 
                                             <small> Total RPM Patients are {doctorpatients && doctorpatients?.length < 10 ? '0'+doctorpatients?.length : doctorpatients?.length} 
                                             </small>
                                         </p>

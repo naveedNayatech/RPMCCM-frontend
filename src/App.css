@@ -92,7 +92,7 @@
     max-width: 80%;
     position: relative;
     clear: both;
-    background-image: linear-gradient(#02C39A, #02C39A);
+    background-image: linear-gradient(#8FBB2C, #8FBB2C);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 10px;
@@ -168,7 +168,7 @@
 
   .form-label {
     font-size: 14px;
-    color: #02C39A;
+    color: #8FBB2C;
     font-weight: bold;
   }
 
@@ -196,7 +196,7 @@
     margin: 8px;
     box-sizing: border-box;
     border: 32px solid #FFF;
-    border-color: #999 transparent #02C39A transparent;
+    border-color: #999 transparent #8FBB2C transparent;
     animation: lds-hourglass 1.2s infinite;
   }
 
@@ -218,7 +218,7 @@
   # Top Bar
   --------------------------------------------------------------*/
   #topbar {
-    background: #02C39A;
+    background: #8FBB2C;
     color: #D0D8DA;
     height: 40px;
     font-size: 14px;
@@ -288,8 +288,8 @@
   }
 
   .logoImg {
-    width: 210px;
-    height: 80px;
+    width: auto;
+    height: 60px;
     margin: 0px auto;
   }
 
@@ -309,7 +309,7 @@
   }
 
   #header .logo a {
-    color: #02C39A;
+    color: #8FBB2C;
     text-decoration: none;
   }
 
@@ -322,7 +322,7 @@
     width: 70px;
     font-size: 12px;
     margin: 0 auto;
-    background-color:#02C39A !important;
+    background-color:#8FBB2C !important;
     opacity: 0.5;
   }
 
@@ -330,7 +330,7 @@
     width: 70px;
     font-size: 12px;
     margin: 0 auto;
-    background-color:#02C39A !important;
+    background-color:#8FBB2C !important;
   }
 
   .not-assigned-tag {
@@ -345,7 +345,7 @@
   */
   .appointment-btn {
     margin-left: 25px;
-    background: #02C39A;
+    background: #8FBB2C;
     color: #FFF;
     border-radius: 50px;
     padding: 8px 25px;
@@ -367,7 +367,7 @@
   # Featured Services
   --------------------------------------------------------------*/
   .featured-services {
-    background: #02C39A;
+    background: #8FBB2C;
     margin: 40px;
     padding: 10px;
     border: 3px solid #EEE;
@@ -390,7 +390,7 @@
   }
 
   .icon {
-    color: #02C39A;
+    color: #8FBB2C;
     font-size: 30px;
     background: #DBDCD5;
     padding: 10px;
@@ -400,7 +400,7 @@
   }
 
   .icon-box-active .icon {
-    color: #02C39A;
+    color: #8FBB2C;
     font-size: 30px;
     background: #DBDCD5;
     padding: 10px;
@@ -435,7 +435,7 @@
   }
 
   .about-us-point {
-    background: #02C39A;
+    background: #8FBB2C;
     padding: 10px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -556,7 +556,7 @@
   }
 
   .services .icon-box:hover .icon i {
-    color: #02C39A;
+    color: #8FBB2C;
   }
 
   .services .icon-box:hover .icon::before {
@@ -581,7 +581,7 @@
   }
 
   .rpm-devices-card-01 {
-    background: #02C39A;
+    background: #8FBB2C;
     box-shadow: 0 0 5px 5px rgba(0,0,0, 0.1);
   }
 
@@ -608,7 +608,7 @@
   .telemedine-subheading{
     font-size: 24px;
     font-weight: bold;
-    color: #02C39A
+    color: #8FBB2C
   }
 
   .telemedine-img {
@@ -634,7 +634,7 @@
   }
 
   .how-it-works-card-01 {
-    background-color: #02C39A;
+    background-color: #8FBB2C;
     color: #FFF;
     padding: 15px;
     border-radius: 25px;
@@ -644,7 +644,7 @@
 
 
   .how-it-works-card-04 {
-    background-color: #02C39A;
+    background-color: #8FBB2C;
     color: #FFF;
     padding: 15px;
     border-radius: 25px;
@@ -684,7 +684,7 @@
   }
 
   .appointment .php-email-form button[type="submit"] {
-    background: #02C39A;
+    background: #8FBB2C;
     border: 0;
     padding: 10px 35px;
     color: #fff;
@@ -693,7 +693,7 @@
   }
 
   .appointment .php-email-form button[type="submit"]:hover {
-    background: #02C39A;
+    background: #8FBB2C;
   }
 
   /************************************ Contact Map ******************************** */
@@ -783,7 +783,7 @@
   }
 
   .contact .php-email-form button[type="submit"] {
-    background: #02C39A;
+    background: #8FBB2C;
     border: 0;
     padding: 10px 35px;
     color: #fff;
@@ -820,7 +820,7 @@
 
   #footer .footer-top {
     margin-top: 70px;
-    background: #F0F3BD;
+    background: #8FBB2C;
     padding: 60px 0 30px 0;
     color: #05668D
   }
@@ -858,10 +858,10 @@
     transition: 0.3s;
   }
 
-  #footer .footer-top .social-links a:hover {
+  /* #footer .footer-top .social-links a:hover {
     background: #65c9cd;
     text-decoration: none;
-  }
+  } */
 
   #footer .footer-top h4 {
     font-size: 16px;
@@ -898,14 +898,14 @@
   }
 
   #footer .footer-top .footer-links ul a {
-    color: #05668D;
+    color: #FFF;
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
   }
 
   #footer .footer-top .footer-links ul a:hover {
-    color: #3fbbc0;
+    color: #FFF;
   }
 
   #footer .footer-top .footer-newsletter form {
@@ -932,15 +932,15 @@
     background: none;
     font-size: 16px;
     padding: 0 20px;
-    background: #1977cc;
+    background: #02457A;
     color: #fff;
     transition: 0.3s;
     border-radius: 0 4px 4px 0;
   }
 
-  #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+  /* #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
     background: #65c9cd;
-  }
+  } */
 
   #footer .copyright {
     text-align: center;
@@ -1022,11 +1022,11 @@
   }
 
   .sidebar .nav-links li a .link_name{
-    color: #02C39A; 
+    color: #8FBB2C; 
   }
 
   .link-name-active {
-    background-color: #02C39A;
+    background-color: #8FBB2C;
   }
 
   .link-name-active span {
@@ -1136,7 +1136,8 @@
 
 
   .searchArea {
-    background-color: #6bd0f1;
+    /* background-color: #6bd0f1; */
+    background-color: #02457A;
                 
   }
 
@@ -1255,7 +1256,7 @@
   }
 
   .overview-boxes .indicator i.down{
-    background: #02C39A;
+    background: #8FBB2C;
   }
 
   .overview-boxes .indicator .text{
@@ -1303,7 +1304,7 @@
   } */
 
   th {
-    background-color: #02C39A;
+    background-color: #8FBB2C;
     color: #FFF;
     font-weight: bold;
   }
@@ -1327,7 +1328,7 @@
   }
 
   .content {
-    margin-top: 10%;
+    margin-top: 5%;
     border-radius: 10px;
     padding: 0.5rem;
     background-color: #FAFAFA;
@@ -1376,7 +1377,7 @@
   }
 
   .reset-btn {
-    background-color: #02C39A;
+    background-color: #8FBB2C;
     color: #FFF;
     padding: 5px;
     border-radius: 5px;
@@ -1487,12 +1488,12 @@
     border-radius: 50%;
     margin-left: 42%;
     margin-top: -10%;
-    border: 3px solid #02C39A;
+    border: 3px solid #8FBB2C;
   }
 
   .profile-value-bottom-border {
     letter-spacing: 1px;
-    border-bottom: 4px solid #02C39A;
+    border-bottom: 4px solid #8FBB2C;
     margin: 3px;
     padding: 5px
   }
@@ -1526,7 +1527,7 @@
   }
 
   .patient-profile-disease-span {
-    background-color: #02C39A;
+    background-color: #8FBB2C;
     display: inline-block;
     padding: 8px;
     border-radius: 5px;
@@ -1550,7 +1551,7 @@
 
   /* Pagination */
   .page-item.active .page-link {
-    background-color: #02C39A;
+    background-color: #8FBB2C;
     border-color: #D3D3D3;
   }
 
@@ -1797,7 +1798,7 @@
 
   /* HR & DR Reports */
   .reportsHeading {
-    background-color: #02C39A;
+    background-color: #8FBB2C;
     color: white;
     padding: 3px;
     border-radius: 50px;
@@ -1811,7 +1812,7 @@
   }
 
   .spentTime {
-    background-color: #02C39A;
+    background-color: #8FBB2C;
     font-size: 12px;
     color: #FFF;
     text-transform: uppercase;
@@ -1890,7 +1891,7 @@
   }
 
   .logs-card {
-    background-color: #02C39A;
+    background-color: #8FBB2C;
     border-radius: 10px;
     padding: 10px;
     color: #FFF;
@@ -1938,9 +1939,9 @@
   }
 
   .pdf-btn{
-    border: 2px solid #02C39A;
+    border: 2px solid #8FBB2C;
     background-color: #FFF;
-    color: #02C39A;
+    color: #8FBB2C;
     padding: 6px;
     border-radius: 10px;
     margin-right: 5px;
@@ -1948,7 +1949,7 @@
 
   .pdf-btn:hover {
     border: 2px solid #FFF;
-    background-color: #02C39A;
+    background-color: #8FBB2C;
     color: #FFF;
 
   }
@@ -1994,7 +1995,7 @@
   }
 
   .cardActive {
-    background-color: #02C39A;
+    background-color: #8FBB2C;
     color: #fff;
   }
 
@@ -2011,7 +2012,7 @@
   .manage_logs_btn{
     background-color: #FFF;
     font-size: 14px;
-    color: #02C39A;
+    color: #8FBB2C;
     padding: 7px;
     border-radius: 10px;
     cursor: pointer;
@@ -2035,7 +2036,7 @@
     height: 120px;
     fill: none;
     stroke-width: 7;
-    /* stroke: #02C39A; */
+    /* stroke: #8FBB2C; */
     transform: translate(5px, 5px);
     stroke-dasharray: 440;
     stroke-dashoffset: 440;
@@ -2088,12 +2089,12 @@
     width: 100%;
     border-width: 2px;
     border-style: solid;
-    border-color: #02C39A;
+    border-color: #8FBB2C;
     color: gray
   } 
 
   .bpChartButton:hover {
-    background-color: #02C39A;
+    background-color: #8FBB2C;
     color: #fff;
   }
 
@@ -2179,7 +2180,7 @@
   }
 
   .monthly-target-card {
-    background-color: #02C39A;
+    background-color: #8FBB2C;
     /* background-image: linear-gradient(#2c3e50, #3498db); */
   }
 
@@ -2191,7 +2192,7 @@
   }
 
   .activeConsentTab {
-    background-color: #02C39A !important;
+    background-color: #8FBB2C !important;
     color: #fff !important;
   }
 
@@ -2208,7 +2209,7 @@
   .deviceHistoryIcons {
     font-size: 42px;
     padding: 5px;
-    color: #02C39A
+    color: #8FBB2C
   }
 
   /* common */
@@ -2233,7 +2234,7 @@
   display: block;
   width: 225px;
   padding: 3px 0;
-  background-color: #02C39A;
+  background-color: #8FBB2C;
   box-shadow: 0 5px 10px rgba(0,0,0,.1);
   color: #fff;
   font: 700 14px;
@@ -2279,7 +2280,7 @@
   width: 80px;
   border-radius: 50%;
   background-color: #FFF;
-  border: 4px solid #02C39A;
+  border: 4px solid #8FBB2C;
   color: #000;
   box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
 }
@@ -2302,7 +2303,7 @@
   padding-left: 8px;
   padding-top: 8px;
   padding-bottom: 8px;
-  background-color: #02C39A;
+  background-color: #8FBB2C;
   color: #FFF;
   border-radius: 10px;
 

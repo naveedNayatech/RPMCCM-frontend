@@ -70,7 +70,7 @@ const StaffPatients = () => {
                             <div>
                                 <div className="row-display">
                                         <h5 className="title">RPM Patients 
-                                            <p style={{color: '#02C39A'}}>
+                                            <p style={{color: '#8FBB2C'}}>
                                                 <small> Total RPM patients are: {doctorpatients && doctorpatients?.length < 10 ? '0'+doctorpatients?.length : doctorpatients?.length} </small> 
                                             </p>
                                         </h5>

@@ -123,7 +123,7 @@ const AssignPatientToHr = (props) => {
                     <div className="row">
                         <div className="col-md-4">
                             <h5>
-                                <i className='bx bx-user'></i> <strong>&nbsp;Assigning Pt. To <span style={{color: '#02C39A'}}>
+                                <i className='bx bx-user'></i> <strong>&nbsp;Assigning Pt. To <span style={{color: '#8FBB2C'}}>
                                     {firstName} {lastName} </span>
                                 </strong>
                             </h5>
@@ -168,7 +168,7 @@ const AssignPatientToHr = (props) => {
 
                         <div className="col-md-8">
                             <div className="row-display">
-                                <h5 style={{color: '#02C39A'}}>
+                                <h5 style={{color: '#8FBB2C'}}>
                                     <i className='bx bx-plus-medical'></i> <strong>&nbsp;Patient Details </strong>
                                 </h5>
 
@@ -199,7 +199,7 @@ const AssignPatientToHr = (props) => {
 
                                             <span className="profile-label">RPM Nurse</span>
                                             {patient?.assigned_hr_id ? 
-                                                <p className="profile-value-text" style={{color: '#02C39A'}}>{patient?.assigned_hr_id?.firstname} {patient?.assigned_hr_id?.lastname}</p> 
+                                                <p className="profile-value-text" style={{color: '#8FBB2C'}}>{patient?.assigned_hr_id?.firstname} {patient?.assigned_hr_id?.lastname}</p> 
                                             : <p><small>No RPM Nurse</small></p>}                                            
                                         </div>
 
@@ -212,7 +212,7 @@ const AssignPatientToHr = (props) => {
 
                                             <span className="profile-label">CCM Nurse</span>
                                             {patient?.assigned_ccm_nurse_id ? 
-                                                <p className="profile-value-text" style={{color: '#02C39A'}}>{patient?.assigned_ccm_nurse_id?.firstname} {patient?.assigned_ccm_nurse_id?.lastname}</p> 
+                                                <p className="profile-value-text" style={{color: '#8FBB2C'}}>{patient?.assigned_ccm_nurse_id?.firstname} {patient?.assigned_ccm_nurse_id?.lastname}</p> 
                                             : <p><small>No CCM Nurse</small></p>}
                                         </div>
 

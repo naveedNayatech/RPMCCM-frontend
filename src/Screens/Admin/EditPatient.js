@@ -88,7 +88,7 @@ return (
 
                 <div className="row-display">
                     <div className="col-md-11">
-                        <h5 style={{color: '#02C39A'}}>
+                        <h5 style={{color: '#8FBB2C'}}>
                             <i className="bx bx-edit"></i> <strong>&nbsp;
                                 Edit Details - <span style={{color: '#222'}}>{patientInfo?.firstname} {patientInfo?.lastname} </span>
                              </strong>

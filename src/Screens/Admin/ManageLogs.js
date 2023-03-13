@@ -214,7 +214,7 @@ const doctorOptions = []
                 </> : <>  {/*Select patient */}
                 <div className="row-display">
                 <div className="col-md-4 mt-4">
-                <label>Select Patient  <span style={{color: '#02C39A'}}> *</span>  </label>
+                <label>Select Patient  <span style={{color: '#8FBB2C'}}> *</span>  </label>
                 <Select
                     options={options}
                     onChange={getPatientProfile}
@@ -250,7 +250,7 @@ const doctorOptions = []
                 {loading ? <Loader /> : <>
                 {logs && logs.length > 0 ? <>
                     <div className="row-display">
-                        <small className="pt-2 mt-2"><b>Results Found <span style={{color: '#02C39A'}}>( {logs && logs.length} )</span></b></small>
+                        <small className="pt-2 mt-2"><b>Results Found <span style={{color: '#8FBB2C'}}>( {logs && logs.length} )</span></b></small>
                         <span className="manage_logs_btn" onClick={resetLogs}><i className='bx bx-slider-alt'></i> Reset Logs</span>
                     </div>
 

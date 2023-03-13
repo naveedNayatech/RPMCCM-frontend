@@ -102,7 +102,7 @@
                 <div className="home-content">
 
                 <div className="row-display">
-                    <h5 style={{color: '#02C39A'}}>
+                    <h5 style={{color: '#8FBB2C'}}>
                         <i className='bx bx-filter'></i> 
                         <strong>&nbsp;Time Report for RPM </strong>
                     </h5>
@@ -241,7 +241,7 @@
                         <div className="container row-display">
                             <div className="col-md-12">
                             <div className="row-display">
-                                <h5 style={{color: '#02C39A'}}>
+                                <h5 style={{color: '#8FBB2C'}}>
                                     <i className='bx bxs-watch'></i> <strong>&nbsp;RPM Minutes Added </strong>
                                 </h5>
 

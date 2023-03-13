@@ -39,7 +39,7 @@ const AdminPatientStats = ({ activePatients, InactivePatients, malePts, femalePt
                                     <Link to="/patients" className='link'>
                                     <span className="card analytics-card mt-3">
                                         <div className="row-display p-2">
-                                        <i className="fas fa-weight" style={{color: '#02C39A', fontSize: '24px', paddingLeft: '15px'}}></i>
+                                        <i className="fas fa-weight" style={{color: '#8FBB2C', fontSize: '24px', paddingLeft: '15px'}}></i>
                                             <small style={{ fontSize: '18px'}}> &nbsp;&nbsp;RPM Patients</small>
                                             <small className="circleBg">{rpmPts && rpmPts}</small>
                                         </div>
@@ -62,7 +62,7 @@ const AdminPatientStats = ({ activePatients, InactivePatients, malePts, femalePt
                                 <div className="col-md-6">
                                     <span className="card analytics-card mt-3">
                                         <div className="row-display p-2">
-                                        <i className="fas fa-male" style={{color: '#02C39A', fontSize: '24px', paddingLeft: '15px'}}></i>
+                                        <i className="fas fa-male" style={{color: '#8FBB2C', fontSize: '24px', paddingLeft: '15px'}}></i>
                                             <small style={{ fontSize: '18px'}}> &nbsp;&nbsp;Male Patients</small>
                                             <small className="circleBg">{malePts && malePts}</small>
                                         </div>

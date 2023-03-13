@@ -137,7 +137,7 @@ const HRPatientProfile = (props) => {
                             {deviceData && deviceData.length > 0 ? <Fragment>
                         {/* Charts for Determination */}   
                             <div className="container">
-                                <h5 className="pt-2 mt-2">Charts for <span style={{ color: '#02C39A'}}> Determination </span></h5>
+                                <h5 className="pt-2 mt-2">Charts for <span style={{ color: '#8FBB2C'}}> Determination </span></h5>
                                 <hr/>
 
                                 <div className="row">
@@ -179,7 +179,7 @@ const HRPatientProfile = (props) => {
                         
                        
                             <div className="col-md-12 container">
-                                <h5 className="pt-2 mt-2">Telemetary Data <p style={{ color: '#02C39A'}}>
+                                <h5 className="pt-2 mt-2">Telemetary Data <p style={{ color: '#8FBB2C'}}>
                                     <small>Total Readings: {Count} </small> 
                                     </p>
                                 </h5>

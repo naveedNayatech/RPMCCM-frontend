@@ -68,7 +68,7 @@ const InitialMonthReport = () => {
             <div className="home-content">
 
                 <div className="row-display">
-                    <h5 className="pt-2 mt-2">Initial Month<span style={{color: '#02C39A'}}> Report </span></h5>
+                    <h5 className="pt-2 mt-2">Initial Month<span style={{color: '#8FBB2C'}}> Report </span></h5>
                 
                     <div className="row-display">
                         <Link to="/adminDashboard">
@@ -174,7 +174,7 @@ const InitialMonthReport = () => {
                     <hr />
                     <div className="row">
                      <div className="col-md-8 col-lg-8">
-                         <p style={{color: 'gray', fontWeight: 'bold'}}>Results Found: <span style={{color: '#02C39A'}}>{initialMonthPatients && initialMonthPatients.length} </span></p>
+                         <p style={{color: 'gray', fontWeight: 'bold'}}>Results Found: <span style={{color: '#8FBB2C'}}>{initialMonthPatients && initialMonthPatients.length} </span></p>
                      </div>
 
                     <div className="col-md-2 col-lg-2">

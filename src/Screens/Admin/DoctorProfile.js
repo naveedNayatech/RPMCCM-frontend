@@ -75,7 +75,7 @@ const DoctorProfile = (props) => {
                         
                         <div className="row-display">
                             <div className="col-md-9">   
-                                <h5 style={{color: '#02C39A', marginTop: '10px'}}>
+                                <h5 style={{color: '#8FBB2C', marginTop: '10px'}}>
                                     <i className="bx bx-user"></i> <strong>&nbsp;Doctor Profile </strong>
                                 </h5>
                             </div>
@@ -139,7 +139,7 @@ const DoctorProfile = (props) => {
 
                                             <div className="col-md-5 text-center">
                                             
-                                            <h5 style={{color: '#02C39A', marginTop: '10px'}}>
+                                            <h5 style={{color: '#8FBB2C', marginTop: '10px'}}>
                                                 <i className="bx bx-user"></i> <strong>&nbsp;Assigned HR </strong>
                                             </h5> 
 
@@ -164,7 +164,7 @@ const DoctorProfile = (props) => {
                         {doctorpatients && doctorpatients?.length > 0 ? (<Fragment>
                             <div className="row-display">
                             
-                            <h5 style={{color: '#02C39A', marginTop: '10px'}}>
+                            <h5 style={{color: '#8FBB2C', marginTop: '10px'}}>
                                 <i className="bx bxs-user-check"></i> <strong>&nbsp;Assigned Patients ({doctorpatients && doctorpatients.length < 10 ? '0'+doctorpatients.length : doctorpatients.length})</strong>
                             </h5>
                                

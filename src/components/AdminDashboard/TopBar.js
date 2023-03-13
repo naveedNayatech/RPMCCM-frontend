@@ -45,7 +45,7 @@ const TopBar = ({props}) => {
             <div className="row-display" style={{padding: '0px 10px'}}>
                 <div className="sidebar-button">
                     <i className="bx bx-menu sidebarBtn"></i>
-                    <h4 className="mt-2">Hello, <span style={{color: '#02C39A'}}>{isAuthenticated === true && user && user?.name} 
+                    <h4 className="mt-2">Hello, <span style={{color: '#8FBB2C'}}>{isAuthenticated === true && user && user?.name} 
                     <p style={{fontSize: '13px'}}>
                         Welcome Back
                     </p></span></h4>    
@@ -56,7 +56,7 @@ const TopBar = ({props}) => {
                         <Dropdown className="admin-topbar-dropdown">
                             <Dropdown.Toggle variant="link" id="dropdown-basic">
 
-                            <i className='bx bxs-bell' style={{color: '#02C39A', fontSize: '32px'}}></i>
+                            <i className='bx bxs-bell' style={{color: '#8FBB2C', fontSize: '32px'}}></i>
                             </Dropdown.Toggle>
 
                             <Dropdown.Menu className="admin-topbar-notification-dropdown">
@@ -90,7 +90,7 @@ const TopBar = ({props}) => {
                 
                         <Dropdown>
                             <Dropdown.Toggle variant="none" id="dropdown-basic" className="profile-details">
-                               <i className="fas fa-user-shield" style={{fontSize: '50px', color: '#02C39A'}}></i>  
+                               <i className="fas fa-user-shield" style={{fontSize: '50px', color: '#8FBB2C'}}></i>  
                             </Dropdown.Toggle>
 
                             <Dropdown.Menu className="admin-topbar-dropdown">

@@ -125,7 +125,7 @@ return (
     <>
         <div className="row-display">
             <div className="col-md-11">
-                <h4 style={{color: '#02C39A'}}>
+                <h4 style={{color: '#8FBB2C'}}>
                     <i className="bx bx-user"></i> <strong>&nbsp;Patient Profile </strong>
                 </h4>
             </div>
@@ -155,7 +155,7 @@ return (
                     <br/>
                     <div className="card text-center p-1">
                         <b>Consent Program</b>
-                        <h3 style={{color: '#02C39A'}}>
+                        <h3 style={{color: '#8FBB2C'}}>
                         {patient?.patientType === 'RPM' ? 'RPM' : 
                             patient?.patientType === 'CCM' ? 'CCM' : 
                             patient?.patientType === 'Both' ? 'RPM, CCM' : 

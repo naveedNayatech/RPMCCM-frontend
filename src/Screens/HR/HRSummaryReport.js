@@ -66,7 +66,7 @@ const HRSummaryReport = () => {
                 <div className="home-content">
                     <div className="container">
                     <div className="row-display">
-                        <h5 style={{color: '#02C39A'}}>
+                        <h5 style={{color: '#8FBB2C'}}>
                         <i className="fas fa-dollar-sign" style={{color: 'green', fontSize: '20px'}}></i> 
                             <strong>&nbsp;&nbsp;Financial Report for RPM </strong>
                         </h5>

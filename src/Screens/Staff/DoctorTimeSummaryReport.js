@@ -52,13 +52,13 @@ const DoctorTimeSummaryReport = () => {
             <div className="shadow-lg p-3 mb-5 mr-4 ml-4 bg-white rounded">        
                 <div className="home-content">
                     <div className="container">
-                            <h5 >Time Summary <span style={{color: '#02C39A'}}> Report </span> </h5> 
+                            <h5 >Time Summary <span style={{color: '#8FBB2C'}}> Report </span> </h5> 
                             <hr />
                             <span className="notes-header"><b>Note: </b> You can generate time summary report selecting month and year.</span>
 
                             <div className="row cardWrapper">
                             <div className="col-md-3 mt-4">
-                              <label>Month  <span style={{color: '#02C39A'}}> *</span>  </label>
+                              <label>Month  <span style={{color: '#8FBB2C'}}> *</span>  </label>
                                 <select 
                                   name="month" 
                                   className="form-control"
@@ -81,7 +81,7 @@ const DoctorTimeSummaryReport = () => {
                             </div>
 
                             <div className="col-md-3 mt-4">
-                                <label>Year <span style={{color: '#02C39A'}}> *</span></label>
+                                <label>Year <span style={{color: '#8FBB2C'}}> *</span></label>
                                 <select 
                                   name="month" 
                                   className="form-control"

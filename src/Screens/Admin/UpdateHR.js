@@ -88,7 +88,7 @@ const UpdateHR = (props) => {
 
                 <div className="shadow-lg p-3 mb-5 mr-4 ml-4 rounded">
                     <div className="home-content">
-                    <h5 style={{color: '#02C39A'}}>
+                    <h5 style={{color: '#8FBB2C'}}>
                         <i className='bx bx-edit'></i> <strong>&nbsp;Update Nurse Details </strong>
                     </h5>
                     <hr />

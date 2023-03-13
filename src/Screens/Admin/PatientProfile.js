@@ -142,7 +142,7 @@ const PatientProfile = (props) => {
                             
                             
                             {/* Charts for determination exit */}
-                            {/* <h5 className="pt-2 mt-2">Telemetary Data <span style={{ color: '#02C39A'}}>(Total Readings: {Count}) </span></h5> */}
+                            {/* <h5 className="pt-2 mt-2">Telemetary Data <span style={{ color: '#8FBB2C'}}>(Total Readings: {Count}) </span></h5> */}
                             <b className="mt-3">Search Telemetary Data</b>
 
                             <div className="row-display mt-3"> 

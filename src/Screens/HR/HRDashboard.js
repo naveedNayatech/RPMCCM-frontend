@@ -227,7 +227,7 @@
                                     <div className="row">
                                         <div className="col-md-12">
                                         <div className="row-display">
-                                        <h5 style={{color: '#02C39A'}} className="mt-4">
+                                        <h5 style={{color: '#8FBB2C'}} className="mt-4">
                                             <i className='bx bx-user'></i> <strong>&nbsp;My Patients </strong>
                                         </h5>
 

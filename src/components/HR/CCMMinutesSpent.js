@@ -40,7 +40,7 @@ const CCMMinutesSpent = ({patientId}) => {
                         <br />
                         <div className="container row-display">
                             <div className="col-md-12">
-                            <h5 style={{color: '#02C39A'}}>
+                            <h5 style={{color: '#8FBB2C'}}>
                                 <i className='bx bxs-watch'></i> <strong>&nbsp;CCM Minutes Added </strong>
                             </h5>
                             <div className="row-display-secondary">

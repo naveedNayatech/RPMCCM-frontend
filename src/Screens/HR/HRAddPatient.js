@@ -80,7 +80,7 @@ const HRAddPatient = (props) => {
                 <div className="shadow-lg p-3 mb-5 mr-4 ml-4 rounded" style={{backgroundColor: '#FAFAFA'}}>
                     <div className="home-content">
                     <div className="row-display">
-                        <h5 style={{color: '#02C39A'}}>
+                        <h5 style={{color: '#8FBB2C'}}>
                         <i className="fas fa-user" style={{color: '#ED553B', fontSize: '24px'}}></i>
                             <strong>&nbsp;&nbsp;Add New Patient </strong>
                         </h5>

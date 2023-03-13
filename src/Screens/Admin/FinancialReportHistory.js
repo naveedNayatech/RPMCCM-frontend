@@ -85,7 +85,7 @@ const FinancialReportHistory = () => {
             <div className="home-content">
                 <div className="row-display">
                     <div className="col-md-9">
-                        <h5 style={{color: '#02C39A'}}>
+                        <h5 style={{color: '#8FBB2C'}}>
                           <i className='bx bxs-bar-chart-alt-2'></i> <strong>&nbsp;Financial Report History of RPM </strong>
                         </h5>
                     </div>
@@ -103,7 +103,7 @@ const FinancialReportHistory = () => {
                   <div className="row-display">
                   <div className="col-md-3">
                    
-                    <label className="form-label">Select Nurse  <span style={{color: '#02C39A'}}> *</span>  </label>
+                    <label className="form-label">Select Nurse  <span style={{color: '#8FBB2C'}}> *</span>  </label>
                     <Select
                         options={hrOptions}
                         onChange={getHRProfile}
@@ -113,7 +113,7 @@ const FinancialReportHistory = () => {
                 </div>
 
                 <div className="col-md-3">
-                    <label className="form-label">Month  <span style={{color: '#02C39A'}}> *</span>  </label>
+                    <label className="form-label">Month  <span style={{color: '#8FBB2C'}}> *</span>  </label>
                     <select 
                       name="month" 
                       className="form-control"
@@ -136,7 +136,7 @@ const FinancialReportHistory = () => {
                 </div>
 
                 <div className="col-md-3">
-                    <label className="form-label">Year <span style={{color: '#02C39A'}}> *</span></label>
+                    <label className="form-label">Year <span style={{color: '#8FBB2C'}}> *</span></label>
                     <select 
                       name="month" 
                       className="form-control"

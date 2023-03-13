@@ -82,7 +82,7 @@ const HRProfile = (props) => {
 
             <div className="row-display">
                     <div className="col-md-6">   
-                        <h5 style={{color: '#02C39A', marginTop: '10px'}}>
+                        <h5 style={{color: '#8FBB2C', marginTop: '10px'}}>
                             <i className="bx bx-user"></i> <strong>&nbsp;Nurse Profile </strong>
                         </h5>
                     </div>
@@ -166,7 +166,7 @@ const HRProfile = (props) => {
                             </div>
 
                             <div className="col-md-3">
-                                <h5 style={{color: '#02C39A', marginTop: '10px', textAlign: 'center'}}>
+                                <h5 style={{color: '#8FBB2C', marginTop: '10px', textAlign: 'center'}}>
                                     <i className="bx bx-user"></i> <strong>&nbsp;Assigned Doctor </strong>
                                 </h5>
                                 {doctorDetails ? doctorDetails && <>
@@ -183,7 +183,7 @@ const HRProfile = (props) => {
                         <hr />  
                         {/* HRs Patients List */}
                         <div className="row-display">
-                            <h5 style={{color: '#02C39A', marginTop: '10px'}}>
+                            <h5 style={{color: '#8FBB2C', marginTop: '10px'}}>
                                 <i className="bx bxs-user-check"></i> <strong>&nbsp;Assigned Patients ({hrpatients && hrpatients?.length < 10 ? '0'+hrpatients?.length : hrpatients?.length})</strong>
                             </h5>
 

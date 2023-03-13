@@ -101,7 +101,7 @@ const TopBar = ({displayTimer, patientid}) => {
                 <div className="row-display" style={{padding: '0px 30px'}}>
                     <div className="sidebar-button">
                         <i className="bx bx-menu sidebarBtn"></i>
-                        <span className="dashboard">Welcome Back, <span style={{color: '#02C39A'}}>
+                        <span className="dashboard">Welcome Back, <span style={{color: '#8FBB2C'}}>
                         {isAuthenticated === true && user && <>
                             {user?.firstname} {user?.lastname} </> } </span>
                         <p style={{fontSize: '13px'}}>
@@ -148,7 +148,7 @@ const TopBar = ({displayTimer, patientid}) => {
                         <Dropdown className="admin-topbar-dropdown">
                             <Dropdown.Toggle variant="link" id="dropdown-basic">
 
-                            <i className='bx bxs-bell' style={{color: '#02C39A', fontSize: '32px'}}></i>
+                            <i className='bx bxs-bell' style={{color: '#8FBB2C', fontSize: '32px'}}></i>
                             </Dropdown.Toggle>
 
                             <Dropdown.Menu className="admin-topbar-notification-dropdown">
@@ -186,7 +186,7 @@ const TopBar = ({displayTimer, patientid}) => {
 
                 <Dropdown>
                     <Dropdown.Toggle variant="none" id="dropdown-basic" className="profile-details">
-                        <i className="fas fa-user-nurse" style={{fontSize: '50px', color: '#02C39A'}}></i>
+                        <i className="fas fa-user-nurse" style={{fontSize: '50px', color: '#8FBB2C'}}></i>
                         {/* <img src={adminProfilepic} alt="profileimg" /> */}
                     </Dropdown.Toggle>
 

@@ -48,7 +48,7 @@ const ForgotPassword = ({history}) => {
 							<div className="col-md-12" >
 							<br/>
 							<div>
-								<h3 style={{color: '#02C39A'}}>Forgot Password!</h3>
+								<h3 style={{color: '#8FBB2C'}}>Forgot Password!</h3>
 								<h5 style={{color: '#999'}}>Enter email to rest your password.</h5>
 							</div>
 

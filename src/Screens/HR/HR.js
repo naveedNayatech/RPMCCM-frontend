@@ -25,7 +25,7 @@ const {user} = useSelector(state => state.auth);
 
                     <div className="row-display">
                       
-                        <h5 className="pt-2 mt-2">My <span style={{color: '#02C39A'}}>Profile</span></h5> 
+                        <h5 className="pt-2 mt-2">My <span style={{color: '#8FBB2C'}}>Profile</span></h5> 
 
                         <div className="row-display">
                               <Link to="/Nurse/Dashboard">

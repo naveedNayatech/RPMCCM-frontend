@@ -159,7 +159,7 @@
         <>
         {calculateNurseRole()}
         <div className="row-display p-1">      
-        <h5 style={{color: '#02C39A'}} className="mt-3">
+        <h5 style={{color: '#8FBB2C'}} className="mt-3">
              <strong>&nbsp;{patient?.firstname + ' ' + patient?.lastname}'s Profile </strong>
         </h5>
             
@@ -202,7 +202,7 @@
                             <br/>
                             <div className="card text-center p-1">
                                 <b>You are authorize to do</b>  
-                                <h3 style={{color: '#02C39A'}}>
+                                <h3 style={{color: '#8FBB2C'}}>
                                 {patient?.assigned_hr_id?._id === hrId && patient?.assigned_ccm_nurse_id?._id !== hrId ? <b>RPM</b> : 
                                     patient?.assigned_ccm_nurse_id?._id === hrId && patient?.assigned_hr_id?._id !== hrId ? <b>CCM</b> : 
                                     patient?.assigned_hr_id?._id === hrId && patient?.assigned_ccm_nurse_id?._id === hrId ? <b>RPM, CCM</b> : 
@@ -295,7 +295,7 @@
                                 {nurseRole === 'RPM' || nurseRole === 'Both' ? <>
                                 <div className="card">
                                     <div className="row">
-                                        <div className="col-3 text-center" style={{backgroundColor: '#02C39A'}}>
+                                        <div className="col-3 text-center" style={{backgroundColor: '#8FBB2C'}}>
                                             <h3 className="text-white pt-2"> {totalTime} </h3>
                                         </div>
                                         <div className="col-7 text-center mt-2">
@@ -310,7 +310,7 @@
                               {nurseRole === 'CCM' || nurseRole === 'Both' ? <>
                               <div className="card">
                                 <div className="row">
-                                        <div className="col-3 text-center" style={{backgroundColor: '#02C39A'}}>
+                                        <div className="col-3 text-center" style={{backgroundColor: '#8FBB2C'}}>
                                             <h3 className="text-white pt-2"> {totalTimeinCCM} </h3>
                                         </div>
                                         <div className="col-7 text-center mt-2">

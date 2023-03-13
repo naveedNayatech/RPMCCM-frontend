@@ -114,7 +114,7 @@ const StaffPatientProfile = (props) => {
                             {patient && <Fragment>
                             <div className="row">
                                 <div className="col-md-10">
-                                    <h5 className="pt-2 mt-2">{patient?.firstname} {patient?.lastname}<span style={{ color: '#02C39A'}}> Details </span></h5>
+                                    <h5 className="pt-2 mt-2">{patient?.firstname} {patient?.lastname}<span style={{ color: '#8FBB2C'}}> Details </span></h5>
                                 </div>
                                 </div>
                             <hr />
@@ -261,7 +261,7 @@ const StaffPatientProfile = (props) => {
                         {deviceData && deviceData.length > 0 ? <Fragment>
                         <br/><br/>
                         <div className="col-md-3">
-                            <h5 className="pt-2 mt-2">Telemetary Data <span style={{ color: '#02C39A'}}> ( {Count} ) </span></h5>
+                            <h5 className="pt-2 mt-2">Telemetary Data <span style={{ color: '#8FBB2C'}}> ( {Count} ) </span></h5>
                         </div>
 
                         <div className="row-display patient-profile-col-heading" style={{ 

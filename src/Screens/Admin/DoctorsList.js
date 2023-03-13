@@ -73,7 +73,7 @@ const DoctorsList = () => {
                     <div className="home-content">
 
                     <div className="row-display">
-                            <h5 style={{color: '#02C39A'}}>
+                            <h5 style={{color: '#8FBB2C'}}>
                                 <i className='bx bx-plus-medical'></i> <strong>&nbsp;List of Doctors </strong>
                             </h5>
 
@@ -145,7 +145,7 @@ const DoctorsList = () => {
                                 
                                 <td>{doctor?.phone1 ? doctor?.phone1 : '--'}</td>
 
-                                <td style={{color:"#02C39A"}}>{doctor?.assigned_hr_id ? <>HR. {doctor?.assigned_hr_id?.firstname}  {doctor?.assigned_hr_id?.lastname}</> : '--'} </td>
+                                <td style={{color:"#8FBB2C"}}>{doctor?.assigned_hr_id ? <>HR. {doctor?.assigned_hr_id?.firstname}  {doctor?.assigned_hr_id?.lastname}</> : '--'} </td>
                                 
                                 {doctor?.block === false ? <td>
                                     <Badge pill bg="success text-white" style={{fontSize: '12px', fontWeight: 300}}>Activated</Badge>
@@ -188,7 +188,7 @@ const DoctorsList = () => {
                                 
                                 <td>{doctor?.phone1 ? doctor?.phone1 : '--'}</td>
 
-                                <td style={{color:"#02C39A"}}>{doctor?.assigned_hr_id ? <>HR. {doctor?.assigned_hr_id?.firstname}  {doctor?.assigned_hr_id?.lastname}</> : '--'} </td>
+                                <td style={{color:"#8FBB2C"}}>{doctor?.assigned_hr_id ? <>HR. {doctor?.assigned_hr_id?.firstname}  {doctor?.assigned_hr_id?.lastname}</> : '--'} </td>
                                 
                                 {doctor?.block === false ? <td>
                                     <Badge pill bg="success text-white" style={{fontSize: '12px', fontWeight: 300}}>Activated</Badge>

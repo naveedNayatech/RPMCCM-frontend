@@ -57,7 +57,7 @@ const CCMPatientProfileAdmin = (props) => {
                         <div className="container">
                         <div className="row-display">
                             <div className="col-md-11">
-                                <h4 style={{color: '#02C39A'}}>
+                                <h4 style={{color: '#8FBB2C'}}>
                                     <i className="bx bx-user"></i> <strong>&nbsp;Patient Profile </strong>
                                 </h4>
                             </div>
@@ -78,8 +78,8 @@ const CCMPatientProfileAdmin = (props) => {
                                     <p className="text-muted mt-1">
                                     {patient?.address} {patient?.line2} {patient?.city}
                                     <br/> {patient?.state} {patient?.zipCode}</p>
-                                    <b>Consent Role: </b> <p className="mt-1" style={{color: '#02C39A', fontWeight: 'bold'}}>CCM</p>
-                                    <b>Assigned Physician: </b> <p className="mt-1" style={{color: '#02C39A', fontWeight: 'bold'}}>Dr. Pier Frank</p>
+                                    <b>Consent Role: </b> <p className="mt-1" style={{color: '#8FBB2C', fontWeight: 'bold'}}>CCM</p>
+                                    <b>Assigned Physician: </b> <p className="mt-1" style={{color: '#8FBB2C', fontWeight: 'bold'}}>Dr. Pier Frank</p>
                                 </div>
 
                                 <div className="col-md-2">

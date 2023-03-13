@@ -63,7 +63,7 @@ const Chat = () => {
             <div className="col-md-12">
                 <div className="row">
                     <div className="col-md-4 borderedSection">
-                    <h5 style={{color: '#02C39A'}}>
+                    <h5 style={{color: '#8FBB2C'}}>
                         <i className="bx bx-conversation"></i> <strong>&nbsp;Assigned Patients </strong>
                         <p><small style={{paddingTop: '-10px'}}>Start a chat with RPM patients</small></p>
 

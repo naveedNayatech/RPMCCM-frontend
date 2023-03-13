@@ -46,7 +46,7 @@ const PatientProfileGraph = ({healthData }) => {
                   <CartesianGrid strokeDasharray="1 1" />
                   <Tooltip />
                   <Legend/> 
-                  <Bar dataKey="sys" fill="#02C39A" />
+                  <Bar dataKey="sys" fill="#8FBB2C" />
                       <Bar dataKey="dia" fill="#23408e" />
                       <Bar dataKey="pul" fill="#F95800" />
               </BarChart>
@@ -57,7 +57,7 @@ const PatientProfileGraph = ({healthData }) => {
               <XAxis dataKey="dia" stroke="#007673"/>
               <YAxis/>
               <CartesianGrid stroke="#e0dfdf" strokeDasharray="5 5"/>
-              <Line type="monotone" dataKey="sys" stroke="#02C39A"/>
+              <Line type="monotone" dataKey="sys" stroke="#8FBB2C"/>
               <Line type="monotone" dataKey="dia" stroke="#DC143C"/>
               <Tooltip />
               <Legend />

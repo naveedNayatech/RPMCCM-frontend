@@ -90,14 +90,14 @@ const Login = ({ history }) => {
 
 									<div className="text-center">
 										<Link to="/" style={{textDecoration: 'none', 
-										color: "#02C39A", fontSize: '18px', marginTop: '10px'}}><small>Home</small></Link>
+										color: "#8FBB2C", fontSize: '18px', marginTop: '10px'}}><small>Home</small></Link>
 									</div>
 								</div>
 
 								<div className="col-md-12" >
 									<br />
 									<div>
-										<h3 style={{color: '#02C39A'}}>Hello, Welcome Back!</h3>
+										<h3 style={{color: '#8FBB2C'}}>Hello, Welcome Back!</h3>
 										<p style={{color: '#999'}}>Login with your data that you entered during your registration.</p>
 									</div>
 									<Formik initialValues={{

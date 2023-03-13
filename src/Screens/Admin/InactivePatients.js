@@ -73,7 +73,7 @@ const InactivePatients = () => {
                         
                         <div className="row-display">
                             <div className="col-md-10">
-                                <h5 style={{color: '#02C39A'}}>
+                                <h5 style={{color: '#8FBB2C'}}>
                                     <i className="bx bx-user"></i> <strong>&nbsp;List of <span style={{color: 'red'}}>Inactive</span> Patients </strong>
                                 </h5>
                             </div>

@@ -169,7 +169,7 @@ export default class MyDocument extends React.PureComponent {
 
             <div style={{marginLeft: '60px', marginRight: '60px'}}>
 
-            <h5 className="text-center" style={{color: '#02C39A'}}><b>Telemetary Result</b></h5>
+            <h5 className="text-center" style={{color: '#8FBB2C'}}><b>Telemetary Result</b></h5>
             <br />
 
 

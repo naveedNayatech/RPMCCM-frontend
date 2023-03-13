@@ -94,7 +94,7 @@
                                 <div className="container">
                                     <div className="row-display">
                                         
-                                    <h5 style={{color: '#02C39A'}}>
+                                    <h5 style={{color: '#8FBB2C'}}>
                                         <i className='bx bx-filter'></i> <strong>&nbsp;Time Report for RPM </strong>
                                     </h5>
 
@@ -179,7 +179,7 @@
                                     <hr />
                                     <div className="container">
                                         <div className="row-display">
-                                            <h5 style={{color: '#02C39A'}}>
+                                            <h5 style={{color: '#8FBB2C'}}>
                                                 <i className='bx bxs-watch'></i> <strong>&nbsp;Time Tracking </strong>
                                             </h5>
 

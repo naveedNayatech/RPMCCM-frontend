@@ -65,7 +65,7 @@ const Admins = () => {
                 <div className="shadow-lg p-3 mb-5 mr-4 ml-4 rounded-card">
                     <div className="home-content">
                         <div className="row-display">
-                        <h5 style={{color: '#02C39A'}}>
+                        <h5 style={{color: '#8FBB2C'}}>
                             <i className="bx bx-user"></i> <strong>&nbsp;Admins </strong>
                         </h5>
                             <span className="manage_logs_btn" onClick={() => setSmShow(true)}> 
@@ -86,7 +86,7 @@ const Admins = () => {
                                         <Link to="/admins" className="link" style={{marginLeft: "10%", fontSize: "14px", marginTop: "7px", wordWrap: 'break-word'}}>{admin.email}</Link>
                                         
                                         <small className="mt-3"> <span style={{ 
-                                            backgroundColor: '#02C39A',
+                                            backgroundColor: '#8FBB2C',
                                             color: '#FFF',
                                             padding: '5px', 
                                             borderRadius: '5px'

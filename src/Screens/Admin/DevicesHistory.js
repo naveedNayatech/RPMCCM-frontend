@@ -37,7 +37,7 @@ const {loading, error, deviceHistory} = useSelector(state => state.deviceHistory
             <div className='p-3'>
             <div className="row-display">
                   <div className="col-md-11">
-                    <h5 style={{color: '#02C39A'}}>
+                    <h5 style={{color: '#8FBB2C'}}>
                       <i className='bx bxs-devices'></i> <b>&nbsp;Devices History </b>
                     </h5>
                   </div>

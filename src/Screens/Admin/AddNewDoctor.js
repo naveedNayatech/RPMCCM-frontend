@@ -77,7 +77,7 @@ const AddNewDoctor = () => {
                     <div className="home-content">
                         <div className="row-display">
                             
-                        <h5 style={{color: '#02C39A'}}>
+                        <h5 style={{color: '#8FBB2C'}}>
                             <i className="bx bx-user"></i> <strong>&nbsp;Add New Doctor </strong>
                         </h5>
 
